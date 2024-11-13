@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#body {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 62.5px;
+    background-color: rgba(162, 3, 1, 1);
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1140px;
+    height: 62.5px;
+    display: flex;
+}
+.header-logo {
+    width: 195px;
+    height: 62.5px;
+}
+.logo {
+    width: 165px;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.logo-text {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header-center-content a {
+    display:inline-block;
+    padding-top: 15px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration:none;;
+}
+.nav-bar-center {
+    width: 975px;
+    height: 62.5px;
+    padding-left: 100px;
+    display:inline-block;
+    font-size: 20px;
+}
+.nav-bar-right {
+    width: 130px;
+    height: auto;
+}
+.header-right-content {
+    width: auto;
+    height: 62.5px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+.main-content {
+    margin: 0px 350px;
+}
+.banner-content {
+    width: 1140px;
+    height: 500px;
+    margin: 50px 350px;
+}
+.banner a img {
+    width: 1140px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.game-nav {
+    width: 1140px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(162, 3, 1, 1);
+}
+.selection {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    padding: 0px 15px;
+}
+.product {
+    width: 1140px;
+    height: auto;
+    margin: 0px 350px;
+}
+.product-items {
+    width: 1140px;
+    margin-bottom: 50px;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.image {
+    border-radius: 10px;
+}
+.item-name-box {
+    width: 270px;
+    height: 70px;
+    padding-top: 10px;
+}
+.text {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: rgba(162, 3, 1, 1);
+    display: flex;
+    justify-content: center;
+}
+.footer-content {
+    width: 1140px;
+    height: auto;
+    display: flex;
+}
+.left-footer {
+    width: 30%;
+    height: auto;
+}
+.description {
+    width: 300px;
+    height: auto;
+    color: black;
+    font-size: 20px;
+}
+.right-footer {
+    width: 70%;
+    height: auto;
+    margin-top: 15px;
+}
+.link a {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
