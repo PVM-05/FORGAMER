@@ -64,20 +64,19 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .main {
     width: 100%;
     height: auto;
 }
 .main-content {
+    width: 1140px;
+    height: auto;
     margin: 0px 350px;
 }
-.banner-content {
-    width: 1140px;
-    height: 500px;
-    margin: 50px 350px;
+.banner-container {
+    position: relative;
 }
-.banner a img {
+.banner-container-content img {
     width: 1140px;
     height: 500px;
     display: flex;
@@ -86,7 +85,23 @@ body {
     margin-bottom: 20px;
     border-radius: 10px;
 }
-
+.download-button {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.download-button-content {
+    color: white;
+    text-decoration: none;
+    
+}
 .game-nav {
     width: 1140px;
     height: 50px;
@@ -103,7 +118,7 @@ body {
     font-weight: bold;
     font-family: arial, sans-serif;
     padding: 0px 15px;
-}
+}                  
 .product {
     width: 1140px;
     height: auto;
